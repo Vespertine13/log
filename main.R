@@ -2,6 +2,7 @@ library(tidyverse)
 library(glue)
 
 source("config.R")
+setwd("../mega")
 
 ## checks if all the necessary files exists
 # if not thay are created
