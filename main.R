@@ -10,14 +10,6 @@ library(glue)
 
 source("config.R")
 
-## exercises
-exercises <- c("bench_120kg",
-               "dips_40kg",
-               "biceps_curls_15kg",
-               "pullups_10kg",
-               "squats_120kg",
-               "straight_wheel")
-
 ## checks if all the necessary files exists
 # if not thay are created
 
