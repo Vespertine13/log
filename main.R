@@ -1,10 +1,3 @@
-#  LOG: Living Optimally with Gains
-
-# What is needed to make this a repo?
-# input and output folder?
-# data (old_data) not there it should be generated, same with log
-# maybe a config with paths? how do one deal with different computers?
-
 library(tidyverse)
 library(glue)
 
