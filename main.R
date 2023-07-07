@@ -5,7 +5,7 @@ source("config.R")
 setwd("../mega")
 
 ## checks if all the necessary files exists
-# if not thay are created
+# if not they are created
 
 if(!file.exists(log_path)){
     write(file = log_path, 
