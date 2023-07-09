@@ -5,7 +5,7 @@ source("config.R")
 setwd("../mega")
 
 ## checks if all the necessary files exists
-# if not thay are created
+# if not they are created
 
 if(!file.exists(log_path)){
     write(file = log_path, 
@@ -19,7 +19,7 @@ if(!file.exists(data_path)){
 }
 
 ## check if there is a new log
-# If there is a new log stuff will happen
+# If there is a new log it will be added to the data
 # Otherwise do nothing
 log <- paste0(readLines(log_path, encoding = "UTF-8"), collapse = "")
 new_log <- log != glue("exercise:reps{paste(exercises, collapse = ':')}:")
