@@ -47,8 +47,8 @@ if(new_log){
     # all excersises
     fig <- data %>% 
         ggplot(aes(x = as.Date(date, "%d-%m-%Y"), y = reps, color = exercise)) + 
-        geom_point(na.rm=TRUE) + 
-        geom_line(aes(x = as.Date(date, "%d-%m-%Y"), y = reps), size = 2) +
+        geom_point() + 
+        geom_line(aes(x = as.Date(date, "%d-%m-%Y"), y = reps), size = 2, alpha = 0.5) +
         geom_text(aes(label = reps), vjust = -1) +
         scale_y_continuous(limits = c(1, 20)) +
         xlab("Date") +
