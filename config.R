@@ -7,6 +7,6 @@ output_path <- "workout_log.png"
 exercises <- c("bench_120kg",
                "dips_40kg",
                "biceps_curls_15kg",
-               "pullups_10kg",
+               "pullups_20kg",
                "squats_120kg",
                "straight_wheel")
