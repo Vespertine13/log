@@ -19,7 +19,7 @@ if(!file.exists(data_path)){
 }
 
 log <- paste0(readLines(log_path, encoding = "UTF-8"), collapse = "")
-new_log <- log != glue("exercise:reps{paste(exercises, collapse = ':')}:")
+new_log <- log != glue("exercise:repsx3{paste(exercises, collapse = ':')}:")
 
 
 ## check if there is a new log
